@@ -1,2 +1,2 @@
-# gitlab-ci-docker-base
-Base image to use with GitLab CI to enable integration with AWS
+# GitLab CI base image for integration with AWS
+Very simple docker image which is based off the official docker image. Simply installs the AWS CLI on top of it, so that GitLab CI processes using AWS contain less boilerplate.
